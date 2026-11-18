@@ -30,17 +30,11 @@ def dfs_postorder(root):
         print(root.val, end=" ")
 
 if __name__ == "__main__":
-    print("========================================")
+    print("==========================================")
     print("  Assessment 3.6: DFS Method in Tree")
     print("  Student: JANELLE")
-    print("========================================\n")
+    print("==========================================\n")
 
-    # Constructing a binary tree using the letters of "JANELLE":
-    #          J
-    #        /   \
-    #       A     N
-    #      / \   / \
-    #     E   L L   E
 
     root = Node('J')
     root.left = Node('A')
@@ -61,4 +55,4 @@ if __name__ == "__main__":
     print("Post-order Traversal : ", end="")
     dfs_postorder(root)
     print()
-    print("\n----------------------------------------")
+    print("\n-------------------------------------------")
